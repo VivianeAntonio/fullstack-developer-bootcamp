@@ -1,0 +1,79 @@
+Exercícios aula de algorítimos e pseudocodigo
+
+1. TAREFA: Escrever pseudo código do jogo Lobo, ovelha e repolho. Link: https://www.proprofsgames.com/wolf-sheep-and-cabbage/ 
+
+inicio
+	ovelha entra
+	barco anda
+	ovelha sai
+	barco anda
+	repolho entra
+	barco anda
+	repolho sai
+	ovelha entra
+	barco anda
+	ovelha sai
+	lobo entra
+	barco anda
+	lobo sai
+	barco anda
+	ovelha entra
+	barco anda
+	ovelha sai
+fim
+
+
+2. TAREFA: Treinar lógica de programação com os seguintes jogos:
+
+https://code.org/minecraft
+https://rachacuca.com.br/jogos/pinguins-numa-fria/
+
+3. TAREFA: Escrever pseudocodigo do meu dia
+
+Resolução -> passar camiseta
+
+INICIO
+	entrar na lavanderia
+	retirar pregadores
+	segurar camiseta
+	pegar táboa de passar
+	montar táboa de passar
+	pegar ferro de passar
+	colocar ferro de passar em cima da táboa
+	ligar ferro de passar
+	colocar camiseta sobre a táboa de passar
+	passar manga direita
+	passar manga esquerda
+	passar colarinho
+	passar parte frontal da camiseta
+	virar a camiseta
+	passar manga direita
+	passar manga esquerda
+	passar parte traseira da camiseta
+	desligar ferro de passar
+	dobrar camiseta ao meio
+	dobrar mangas da camiseta para dentro
+	dobrar camiseta ao meio
+	desmontar táboa de passar
+	guardar táboa de passar
+	guardar camiseta dobrada na gaveta
+FIM
+
+	
+------------------
+Pseudocódigo Calculo de media
+
+
+INICIO
+DECLARA nota1: número
+DECLARA nota2: número
+DECLARA nota3: número
+DECLARA nota4: número
+DECLARA media: número
+LEIA (nota1)
+LEIA (nota2)
+LEIA (nota3)
+LEIA (nota4)
+meia = (nota1 + nota2 + nota3 + nota4) / 4
+IMPRIMIR media
+FIM
