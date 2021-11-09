@@ -10,5 +10,5 @@ O objetivo deste repositório é apresentar meus estudos pessoais adquiridos dur
 
 ## 📑 Sumário
 
-1 - Lógica de Programação Essencial
+[1 - Lógica de Programação Essencial](https://github.com/VivianeAntonio/fullstack-developer-bootcamp/tree/main/Logica%20de%20programa%C3%A7%C3%A3o%20essencial)
  
