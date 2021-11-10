@@ -4,9 +4,9 @@
         <attribute name="name" value=""/>
         <attribute name="authors" value="asilv"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2021-11-09 05:05:47 "/>
+        <attribute name="saved" value="2021-11-09 06:02:05 "/>
         <attribute name="created" value="YXNpbHY7TEFQVE9QLTZGQzRURlZMOzIwMjEtMTEtMDk7IjA0OjUyOjQzICI7MjgwMA=="/>
-        <attribute name="edited" value="YXNpbHY7TEFQVE9QLTZGQzRURlZMOzIwMjEtMTEtMDk7IjA1OjA1OjQ3ICI7MTsyOTEx"/>
+        <attribute name="edited" value="YXNpbHY7TEFQVE9QLTZGQzRURlZMOzIwMjEtMTEtMDk7IjA2OjAyOjA1ICI7NTsyOTA3"/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
@@ -18,6 +18,14 @@
             <input variable="nota4"/>
             <assign variable="media" expression="(nota1+nota2+nota3+nota4)/4"/>
             <output expression="media" newline="True"/>
+            <if expression="media&gt;=7">
+                <then>
+                    <output expression="&quot;Parab&#233;ns, voc&#234; foi aprovado.&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Infelizmente voc&#234; foi reprovado&quot;" newline="True"/>
+                </else>
+            </if>
         </body>
     </function>
 </flowgorithm>

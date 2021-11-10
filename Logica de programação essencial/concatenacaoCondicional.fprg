@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="asilv"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-11-09 08:27:23 "/>
+        <attribute name="created" value="YXNpbHY7TEFQVE9QLTZGQzRURlZMOzIwMjEtMTEtMDk7IjA4OjE2OjIzICI7MjgwMg=="/>
+        <attribute name="edited" value="YXNpbHY7TEFQVE9QLTZGQzRURlZMOzIwMjEtMTEtMDk7IjA4OjI3OjIzICI7MTsyOTEy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nota1, nota2, nota3, nota4, media" type="Real" array="False" size=""/>
+            <declare name="nome" type="String" array="False" size=""/>
+            <output expression="&quot;Digite seu nome &quot;" newline="True"/>
+            <input variable="nome"/>
+            <output expression="&quot;Digite a 1&#170; nota: &quot;" newline="True"/>
+            <input variable="nota1"/>
+            <output expression="&quot;Digite a 2&#170; nota: &quot;" newline="True"/>
+            <input variable="nota2"/>
+            <output expression="&quot;Digite a 3&#170; nota: &quot;" newline="True"/>
+            <input variable="nota3"/>
+            <output expression="&quot;Digite a 4&#170; nota: &quot;" newline="True"/>
+            <input variable="nota4"/>
+            <assign variable="media" expression="(nota1+nota2+nota3+nota4)/4"/>
+            <if expression="media&gt;=7">
+                <then>
+                    <output expression="nome &amp; &quot;, sua nota &#233;: &quot; &amp; media &amp; &quot; . Parab&#233;ns, voc&#234; foi aprovado!&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="nome &amp; &quot;, sua nota &#233;: &quot; &amp; media &amp; &quot; . Infelizmente, voc&#234; foi reprovado.&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
