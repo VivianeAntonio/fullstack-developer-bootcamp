@@ -13,5 +13,5 @@ C#, .NET JavaScript, React, HTML, CSS, SQL e outras
 
 ## 📑 Sumário
 
-[1 - Lógica de Programação Essencial](https://github.com/VivianeAntonio/fullstack-developer-bootcamp/tree/main/Logica%20de%20programa%C3%A7%C3%A3o%20essencial)
- 
+1. [Lógica de Programação Essencial](https://github.com/VivianeAntonio/fullstack-developer-bootcamp/tree/main/Logica%20de%20programa%C3%A7%C3%A3o%20essencial)
+2. [Git e GitHub](https://github.com/VivianeAntonio/fullstack-developer-bootcamp/tree/main/Git%20e%20GitHub)
