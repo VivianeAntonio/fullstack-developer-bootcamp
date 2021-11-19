@@ -1,0 +1,10 @@
+Chave SSH
+Forma de estabelecer comunicação segura e encriptada entre duas máquinas.
+- Chave pública
+- Chave privada
+
+Configurar chave SSH no GitHub
+Profile>Settings> SSH and GPG keys
+
+Token de acesso pessoal
+É outra maneira de autenticação. O token deve ser guardado em um local seguro.
