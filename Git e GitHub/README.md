@@ -1,0 +1,3 @@
+# Me leia!
+Este repositório trata-se de um apanhado de anotações sobre meus estudos sobre Git e GitHub. Iniciei meus estudos com o curso de Git e GitHub do professor Gustavo Guanabara <https://www.cursoemvideo.com/curso/curso-de-git-e-github/> onde aprendi a manipular o versionamento de código através de uma ferramenta muito simples, o GitHub Desktop.
+Atualmente estou me aprofundando neste mundo do versionamento através de linha de comando no bootcamp da Digital Innovation One <https://digitalinnovation.one/> e aqui estão alguns exercícios.
